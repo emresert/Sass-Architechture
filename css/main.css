@@ -1,0 +1,33 @@
+/*  Import From Base  */
+/*  Import From components  */
+/*  Import From layaout  */
+.zemin {
+  width: 98.9%;
+  height: 70px;
+  background-color: #ffffff; }
+  .zemin .row .kredimOlDiv {
+    text-align: left; }
+    .zemin .row .kredimOlDiv .KredimOlLogo {
+      width: 180px;
+      height: 36px;
+      object-fit: contain;
+      margin-top: 17px;
+      margin-bottom: 17px;
+      margin-left: 70px; }
+  .zemin .row .arabacomDiv {
+    text-align: right; }
+    .zemin .row .arabacomDiv .Arabacom---Logo {
+      width: 180px;
+      height: 36px;
+      object-fit: contain;
+      margin-top: 17px;
+      margin-bottom: 17px;
+      margin-right: 50px; }
+
+.sectionBodyOfPage {
+  margin-left: 328px;
+  width: 785px; }
+
+/*  Import From pages  */
+
+/*# sourceMappingURL=main.css.map */

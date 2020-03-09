@@ -1,9 +1,18 @@
 // @import Dosyalarımız Burada Yer Alacak
 
+/*  Import From Base  */
 @import "./base/mixins";
 @import "./base/variables";
 
-@import "./layout/footer.scss";
+/*  Import From components  */
 
-@import "./pages/home";
+
+
+/*  Import From layaout  */
+@import "./layout/layout";
+
+
+/*  Import From pages  */
+
+
 

@@ -1,0 +1,33 @@
+.zemin{
+  width: 98.9%; //1440px
+  height: 70px;
+  background-color: #ffffff;
+ 
+ .row{
+    .kredimOlDiv{
+
+        text-align: left;
+
+           .KredimOlLogo {
+          
+            @include mixinForImagesOnTop;
+
+            // my style
+            margin-left: 70px;
+            
+          }
+        }
+
+     .arabacomDiv{
+        text-align: right;
+        
+          .Arabacom---Logo{ 
+            @include mixinForImagesOnTop;
+    
+            // my style
+            margin-right: 50px;
+          
+          }
+        }
+    }   
+}
