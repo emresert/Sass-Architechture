@@ -1,4 +1,43 @@
 .sectionBodyOfPage{
     margin-left: 328px;
     width: 785px;
+    
+    .wrapper{
+      display:flex ;
+
+        .carIconDiv{
+            width: 50px;
+            height: 50px; 
+            color: white;
+            background-color: $backColor; 
+            border-radius: 50%;
+        }
+        .carTextDiv{
+
+            margin-top: 16px; 
+            margin-bottom: 14px;
+            margin-left: 20px;
+            width: 100px;
+            height: 20px;
+            color: $backColor;
+
+            font : {
+                font-size: 20px;
+                font-weight: 500;
+                family: 'Roboto', sans-serif;
+            }
+           
+        }
+
+        .LineInStepBar{
+          width: 95px;
+          margin-top: 26px;
+          margin-bottom: 23px;
+          margin-left: 20px;
+        }
+        
+        .iconsInWrapper{
+            padding: $paddingSize;
+        }
+    }
 }

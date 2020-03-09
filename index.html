@@ -17,10 +17,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
     <title>Task</title>
 </head>
 
-<body>
+<body >
     <header class="zemin">
 
         <div class="row justify-content-between">
@@ -35,23 +37,41 @@
 
             <div class="Row sectionTop">
                 <div class="col">
+
                     <div class="row">
-                        <div class="col">
-                            <div class="carDiv">
-                                <i class="fas fa-car"></i> Araç Bilgileri
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="creditDiv">
+                        <!-- Row For Step Bar-->
+
+                        <div class="col"> <!-- Col-1 For Item of car's info in Step Bar-->
+                            
+                            <div class="wrapper"> <!-- wrapper for writing side by side itemd of car's info-->
+                                <div class="carIconDiv">
+                                    <i class="fas fa-car iconsInWrapper" ></i>
+                                </div>
+                                <div class="carTextDiv">
+                                    Araç Bilgileri
+                                </div>
+                                <div class="carLineDiv">
+                                    <hr class="LineInStepBar">
+                                </div>
+                            </div><!-- wrapper for writing side by side itemd of car's info-->
+                             
+                        </div> <!-- Col-1 For Item of car's info in Step Bar-->
+
+                        <div class="col"> <!-- Col-2 For Item of credit's info in Step Bar-->
+                           
+                            <div class="creditIconDiv">
                                 <i class="fas fa-money-bill-wave"></i> Kredi Seçimi
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="personelInfoDiv">
+                        </div> <!-- Col-2 For Item of credit's info in Step Bar-->
+
+                        <div class="col"> <!-- Col-3 For Item of person's info in Step Bar-->
+                            
+                            <div class="personelInfoIconDiv">
                                 <i class="fas fa-address-card"></i> Kişisel Bilgiler
                             </div>
-                        </div>
-                    </div>
+                        </div> <!-- Col-3 For Item of person's info in Step Bar-->
+
+                    </div> <!-- Row For Step Bar-->
                 </div>
             </div>
 
