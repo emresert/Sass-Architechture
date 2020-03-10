@@ -14,11 +14,26 @@
   border-radius: 50%;
   background-color: #51859a; }
 
-.LineInStepBar {
+.LineInStepBar1 {
   width: 95px;
   margin-left: 0px;
   margin-top: 23px;
   margin-bottom: 23px; }
+  @media (max-width: 768px) {
+    .LineInStepBar1 {
+      width: 100px;
+      margin-top: 25px;
+      margin-left: 20px; } }
+
+.LineInStepBar2 {
+  width: 95px;
+  margin-left: 0px;
+  margin-top: 23px;
+  margin-bottom: 23px; }
+  @media (max-width: 768px) {
+    .LineInStepBar2 {
+      margin-top: 25px;
+      margin-left: 25px; } }
 
 .imgFirst {
   border-radius: 13px;
@@ -166,60 +181,46 @@
       .sectionBodyOfPage .sectionTop .stepBarBodyRow {
         display: flex;
         flex-direction: row; }
-        .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconsSpanFirstStep {
-          width: 50px;
-          height: 50px;
-          font-size: 16px 16px;
-          border-radius: 50%;
-          margin-left: 20px;
-          color: white;
-          background-color: #51859a; }
-        .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconsSpanSecondStep {
-          width: 50px;
-          height: 50px;
-          font-size: 16px 16px;
-          border-radius: 50%;
-          margin-left: 20px;
-          color: #717173;
-          border: 1px solid #717173; }
-        .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconsSpanLastStep {
-          width: 50px;
-          height: 50px;
-          font-size: 16px 16px;
-          border-radius: 50%;
-          margin-left: 20px;
-          color: #717173;
-          border: 1px solid #717173; }
-        .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconFirstText {
-          color: #51859a;
-          width: 112px;
-          margin-left: 14px;
-          margin-top: 10px;
-          font-size: 18px;
-          font-weight: 500;
-          font-family: 'Roboto', sans-serif; }
-        .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconSecondText {
-          color: #717173;
-          width: 112px;
-          margin-left: 14px;
-          margin-top: 10px;
-          font-size: 18px;
-          font-weight: 500;
-          font-family: 'Roboto', sans-serif; }
-        .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconLastText {
-          color: #717173;
-          width: 112px;
-          margin-left: 14px;
-          margin-top: 10px;
-          font-size: 18px;
-          font-weight: 500;
-          font-family: 'Roboto', sans-serif; }
-        .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .FirstIcon {
-          padding: 17px; }
-        .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .SecondIcon {
-          padding: 14.5px; }
-        .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .LastIcon {
-          padding: 14.5px; } }
+        .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper {
+          position: absolute;
+          margin-bottom: 150px; }
+          .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconsSpanFirstStep {
+            margin-left: 75px;
+            margin-top: 0px; }
+          .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconFirstText {
+            position: absolute;
+            padding-top: 25px;
+            padding-right: 5px;
+            color: #51859a;
+            font-size: 16px;
+            margin-left: 50px;
+            margin-top: 35px; }
+          .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconsSpanSecondStep {
+            margin-left: 265px;
+            margin-top: 0px; }
+          .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconSecondText {
+            position: absolute;
+            padding-top: 25px;
+            padding-right: 5px;
+            font-size: 16px;
+            margin-left: 240px;
+            margin-top: 34px; }
+          .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconsSpanLastStep {
+            margin-left: 450px;
+            margin-top: 0px; }
+          .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconLastText {
+            position: absolute;
+            padding-top: 25px;
+            padding-right: 5px;
+            font-size: 16px;
+            margin-left: 430px;
+            margin-top: 35px; }
+          .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .FirstIcon {
+            padding: 17px; }
+          .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .SecondIcon {
+            padding: 14.5px; }
+          .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .LastIcon {
+            padding: 14.5px; } }
   .sectionBodyOfPage .sectionMid {
     border-radius: 20px;
     box-shadow: 0 10px 20px 0 rgba(113, 113, 115, 0.1);
@@ -344,6 +345,9 @@
       font-weight: bold;
       text-align: right; }
 
+@media (max-width: 768px) {
+  .test {
+    margin-top: 100px !important; } }
 /*  Import From pages  */
 
 /*# sourceMappingURL=main.css.map */

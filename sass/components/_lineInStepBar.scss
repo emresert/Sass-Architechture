@@ -1,10 +1,32 @@
-.LineInStepBar{
+.LineInStepBar1{
     
-    width: 95px;
-    margin : 
-    {
-    left:0px; //20
-    top: 23px; //26
-    bottom: 23px;
+          width: 95px;
+          margin : {
+            left:0px; //20
+            top: 23px; //26
+            bottom: 23px;
+     }
+
+    @media (max-width: 768px) {
+        width: 100px;
+        margin-top :25px;
+        margin-left: 20px;
     }
 }
+.LineInStepBar2{
+    
+         width: 95px;
+         margin : {
+             left:0px; //20
+             top: 23px; //26
+             bottom: 23px;
+          }
+
+    @media (max-width: 768px) {
+        margin : {
+            top :25px;
+            left: 25px;
+        }
+    }
+}
+
