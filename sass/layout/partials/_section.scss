@@ -1,9 +1,10 @@
 .sectionBodyOfPage{
     //margin-left: 328px;
     //width: 785px;
+    background-color: #f9f9f9;
    .sectionTop{
        margin-left: 14%; //328px;
-       margin-top: 30px;
+       padding-top: 29px;
        .stepBarBodyRow{
            display: flex;
 
@@ -13,9 +14,7 @@
               .IconsSpanFirstStep{
                   @include mixinForSteps;
                   color: white;
-                  background-color: $backColorFirstStep; 
-                  
-                  
+                  background-color: $backColorFirstStep;    
               }
               .IconsSpanSecondStep{
                  
@@ -28,7 +27,6 @@
                   @include mixinForSteps;
                   color: $backColorAnotherSteps;
                   border: 1px solid $backColorAnotherSteps ;
-                  
               }
               
               .IconFirstText{
@@ -49,9 +47,7 @@
       
               }
               .LineInStepBar{
-              
                   width: 95px;
-      
                   margin : 
                   {
                   left:0px; //20
@@ -72,6 +68,13 @@
           }
        }
     
+   }
+   .sectionMid{
+    border-radius: 20px;
+    box-shadow: 0 10px 20px 0 rgba(113, 113, 115, 0.1);
+    background-color: #ffffff;
+    margin-top: 36px;
+
    }
    
 }
