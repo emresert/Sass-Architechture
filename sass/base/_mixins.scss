@@ -27,3 +27,9 @@
         family: 'Roboto', sans-serif;
     }
 }
+@mixin mixinForImages {
+    border-radius: 13px;
+    width: 276px;
+    height: 150px;
+    margin-top: 22px;
+}

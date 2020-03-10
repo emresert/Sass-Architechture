@@ -1,0 +1,17 @@
+.smallIconWrapper{
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+    color: white;
+    padding: {
+        right: 10px;
+        left: 10px;
+        top:7px //10px
+    } 
+    margin : {
+        top:21px;
+        bottom:21px;
+    }
+    border-radius: 50%;
+    background-color: $backMainColorOfIcon;
+}

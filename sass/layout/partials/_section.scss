@@ -46,15 +46,7 @@
                   @include mixinForStepText;
       
               }
-              .LineInStepBar{
-                  width: 95px;
-                  margin : 
-                  {
-                  left:0px; //20
-                  top: 23px; //26
-                  bottom: 23px;
-                  }
-              }
+              
               
               .FirstIcon{
                   padding: $paddingSize;
@@ -74,7 +66,46 @@
     box-shadow: 0 10px 20px 0 rgba(113, 113, 115, 0.1);
     background-color: #ffffff;
     margin-top: 36px;
+    .FirstRow{
+        margin : {
+            left: 30px;
+            right: 30px;
+        }
 
+        border-bottom: 1px solid #d3dbdd;
+    }
+
+    .SecondRow{
+        @for $counter from 1 to 8{
+           .row#{$counter}{
+            border-bottom: 1px solid #d3dbdd;
+            
+        }
+        }
+        @for $counter from 1 through 8{
+            .row#{$counter}{
+                padding : {
+                    bottom: 13px;
+                    top:13px;
+                }
+    
+                   @if( $counter == 1){
+                        padding-bottom: 13px;
+                   }
+            }
+            .leftInfo#{$counter}{
+                font-family: 'Roboto Slab', serif;
+                font-size: 14px;
+                color: #222831;
+            }
+            .rightInfo#{$counter}{
+                font-family: 'Roboto Slab', serif;
+                font-size: 14px;
+                text-align: right;
+                font-weight: bold;
+            }
+        }
+    }
    }
    
 }
