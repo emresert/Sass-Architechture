@@ -78,31 +78,30 @@
     .SecondRow{
         @for $counter from 1 to 8{
            .row#{$counter}{
-            border-bottom: 1px solid #d3dbdd;
-            
+            border-bottom: 1px solid #d3dbdd; 
         }
         }
         @for $counter from 1 through 8{
+            
             .row#{$counter}{
                 padding : {
                     bottom: 13px;
                     top:13px;
                 }
-    
-                   @if( $counter == 1){
+                 
+                 @if( $counter == 1){
                         padding-bottom: 13px;
-                   }
+                 }
             }
             .leftInfo#{$counter}{
-                font-family: 'Roboto Slab', serif;
-                font-size: 14px;
-                color: #222831;
+              @include mixinForInfoPart;
+              color: #222831;
             }
             .rightInfo#{$counter}{
-                font-family: 'Roboto Slab', serif;
-                font-size: 14px;
-                text-align: right;
-                font-weight: bold;
+              @include mixinForInfoPart;
+
+              font-weight: bold;
+              text-align: right;
             }
         }
     }

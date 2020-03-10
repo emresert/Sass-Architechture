@@ -1,0 +1,25 @@
+.BtnWrapper{
+    margin-right: 110px; 
+    margin-top: 23px;
+    
+
+    .btnContinue{
+       width: 200px;
+       height: 40px; 
+       color:White;
+       background-color:$backMainColorOfIcon;
+       margin-bottom: 20px;
+       font : {
+        family: 'Roboto', sans-serif; 
+        size: 15px;
+        weight: 500; 
+       }
+       .arrowIcon{
+        position: absolute; 
+        margin : {
+            left: 32px;
+            top: 4px;
+        }
+       }   
+    }
+}

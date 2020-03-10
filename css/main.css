@@ -33,6 +33,34 @@
   margin-top: 22px;
   margin-bottom: 41px; }
 
+.BtnWrapper {
+  margin-right: 110px;
+  margin-top: 23px; }
+  .BtnWrapper .btnContinue {
+    width: 200px;
+    height: 40px;
+    color: White;
+    background-color: #51859a;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500; }
+    .BtnWrapper .btnContinue .arrowIcon {
+      position: absolute;
+      margin-left: 32px;
+      margin-top: 4px; }
+
+.footerRow {
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .footerRow .aljLogo {
+    margin-left: 70px; }
+  .footerRow .googleLogo {
+    margin-right: 8px; }
+  .footerRow .appleLogo {
+    margin-right: 70px; }
+
 /*  Import From layaout  */
 .zemin {
   width: 98.9%;
@@ -154,8 +182,8 @@
     .sectionBodyOfPage .sectionMid .SecondRow .rightInfo1 {
       font-family: 'Roboto Slab', serif;
       font-size: 14px;
-      text-align: right;
-      font-weight: bold; }
+      font-weight: bold;
+      text-align: right; }
     .sectionBodyOfPage .sectionMid .SecondRow .row2 {
       padding-bottom: 13px;
       padding-top: 13px; }
@@ -166,8 +194,8 @@
     .sectionBodyOfPage .sectionMid .SecondRow .rightInfo2 {
       font-family: 'Roboto Slab', serif;
       font-size: 14px;
-      text-align: right;
-      font-weight: bold; }
+      font-weight: bold;
+      text-align: right; }
     .sectionBodyOfPage .sectionMid .SecondRow .row3 {
       padding-bottom: 13px;
       padding-top: 13px; }
@@ -178,8 +206,8 @@
     .sectionBodyOfPage .sectionMid .SecondRow .rightInfo3 {
       font-family: 'Roboto Slab', serif;
       font-size: 14px;
-      text-align: right;
-      font-weight: bold; }
+      font-weight: bold;
+      text-align: right; }
     .sectionBodyOfPage .sectionMid .SecondRow .row4 {
       padding-bottom: 13px;
       padding-top: 13px; }
@@ -190,8 +218,8 @@
     .sectionBodyOfPage .sectionMid .SecondRow .rightInfo4 {
       font-family: 'Roboto Slab', serif;
       font-size: 14px;
-      text-align: right;
-      font-weight: bold; }
+      font-weight: bold;
+      text-align: right; }
     .sectionBodyOfPage .sectionMid .SecondRow .row5 {
       padding-bottom: 13px;
       padding-top: 13px; }
@@ -202,8 +230,8 @@
     .sectionBodyOfPage .sectionMid .SecondRow .rightInfo5 {
       font-family: 'Roboto Slab', serif;
       font-size: 14px;
-      text-align: right;
-      font-weight: bold; }
+      font-weight: bold;
+      text-align: right; }
     .sectionBodyOfPage .sectionMid .SecondRow .row6 {
       padding-bottom: 13px;
       padding-top: 13px; }
@@ -214,8 +242,8 @@
     .sectionBodyOfPage .sectionMid .SecondRow .rightInfo6 {
       font-family: 'Roboto Slab', serif;
       font-size: 14px;
-      text-align: right;
-      font-weight: bold; }
+      font-weight: bold;
+      text-align: right; }
     .sectionBodyOfPage .sectionMid .SecondRow .row7 {
       padding-bottom: 13px;
       padding-top: 13px; }
@@ -226,8 +254,8 @@
     .sectionBodyOfPage .sectionMid .SecondRow .rightInfo7 {
       font-family: 'Roboto Slab', serif;
       font-size: 14px;
-      text-align: right;
-      font-weight: bold; }
+      font-weight: bold;
+      text-align: right; }
     .sectionBodyOfPage .sectionMid .SecondRow .row8 {
       padding-bottom: 13px;
       padding-top: 13px; }
@@ -238,8 +266,8 @@
     .sectionBodyOfPage .sectionMid .SecondRow .rightInfo8 {
       font-family: 'Roboto Slab', serif;
       font-size: 14px;
-      text-align: right;
-      font-weight: bold; }
+      font-weight: bold;
+      text-align: right; }
 
 /*  Import From pages  */
 
