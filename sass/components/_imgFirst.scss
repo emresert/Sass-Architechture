@@ -1,4 +1,9 @@
 .imgFirst{
   @include mixinForImages;
 }
-
+@media (max-width: 1024px) {
+  .imgFirst{
+    width: 250px;
+  }
+}
+   

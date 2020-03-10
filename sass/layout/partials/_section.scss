@@ -7,7 +7,7 @@
        padding-top: 29px;
        .stepBarBodyRow{
            display: flex;
-
+            flex-direction: row;
            .IconsWrapper{
             display:flex ;
             
@@ -61,11 +61,88 @@
        }
     
    }
+
+   @media (max-width: 1024px) {
+    .sectionTop{
+        margin-left: 5%; //328px;
+        padding-top: 29px;
+        
+           }
+    }
+
+    @media (max-width: 768px) {
+           
+        .sectionTop{
+            margin-left: 5%; //328px;
+            padding-top: 29px;
+            .stepBarBodyRow{
+                display: flex;
+                 flex-direction: row;
+                .IconsWrapper{
+                
+                 
+                   .IconsSpanFirstStep{
+                      
+                       @include mixinForSteps;
+                       color: white;
+                       background-color: $backColorFirstStep;    
+                   }
+                   .IconsSpanSecondStep{
+                      
+                       @include mixinForSteps;
+                       color: $backColorAnotherSteps;
+                       border: 1px solid $backColorAnotherSteps ;
+                       
+                   }
+                   .IconsSpanLastStep{
+                       @include mixinForSteps;
+                       color: $backColorAnotherSteps;
+                       border: 1px solid $backColorAnotherSteps ;
+                   }
+                   
+                   .IconFirstText{
+                 
+                       color: $backColorFirstStep;
+                       @include mixinForStepText;
+                   }
+                   .IconSecondText{
+           
+                       color: $backColorAnotherSteps;
+                       @include mixinForStepText;
+           
+                   }
+                   .IconLastText{
+           
+                       color: $backColorAnotherSteps;
+                       @include mixinForStepText;
+           
+                   }
+                   
+                   
+                   .FirstIcon{
+                       padding: $paddingSize;
+                   }
+                   .SecondIcon{
+                       padding: 14.5px;
+                   }
+                   .LastIcon{
+                       padding: 14.5px;
+                   }
+               }
+            }
+         
+        }
+            
+    }
+     
+
+
    .sectionMid{
     border-radius: 20px;
     box-shadow: 0 10px 20px 0 rgba(113, 113, 115, 0.1);
     background-color: #ffffff;
     margin-top: 36px;
+
     .FirstRow{
         margin : {
             left: 30px;
@@ -76,35 +153,43 @@
     }
 
     .SecondRow{
-        @for $counter from 1 to 8{
-           .row#{$counter}{
-            border-bottom: 1px solid #d3dbdd; 
+        .leftPart{
+            margin : {
+                left: 33px;
+                right: 30px;
+            }
         }
-        }
-        @for $counter from 1 through 8{
+        .rightPart{
+            @for $counter from 1 to 8{
+                .row#{$counter}{
+                 border-bottom: 1px solid #d3dbdd; 
+             }
+             }
+             @for $counter from 1 through 8{
             
-            .row#{$counter}{
-                padding : {
-                    bottom: 13px;
-                    top:13px;
+                .row#{$counter}{
+                    padding : {
+                        bottom: 13px;
+                        top:13px;
+                    }
+                     
+                     @if( $counter == 1){
+                            padding-bottom: 13px;
+                     }
                 }
-                 
-                 @if( $counter == 1){
-                        padding-bottom: 13px;
-                 }
-            }
-            .leftInfo#{$counter}{
-              @include mixinForInfoPart;
-              color: #222831;
-            }
-            .rightInfo#{$counter}{
-              @include mixinForInfoPart;
-
-              font-weight: bold;
-              text-align: right;
+                .leftInfo#{$counter}{
+                  @include mixinForInfoPart;
+                  color: #222831;
+                }
+                .rightInfo#{$counter}{
+                  @include mixinForInfoPart;
+    
+                  font-weight: bold;
+                  text-align: right;
+                }
             }
         }
+       
     }
    }
-   
 }
