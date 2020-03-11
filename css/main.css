@@ -44,6 +44,12 @@
   .LineInStepBarTwo {
     width: 34px;
     margin-left: 25px; } }
+@media (max-width: 375px) {
+  .LineInStepBarOne {
+    margin-left: 8px; }
+
+  .LineInStepBarTwo {
+    margin-left: 5px; } }
 .imgFirst {
   border-radius: 13px;
   width: 276px;
@@ -87,20 +93,18 @@
   .btnContinue {
     margin-bottom: 20px !important;
     margin-right: 0px; } }
-.footerRow {
-  background-color: #ffffff;
-  padding-top: 10px;
-  padding-bottom: 10px; }
-  .footerRow .aljLogo {
-    margin-left: 70px; }
-  .footerRow .googleLogo {
-    margin-right: 8px; }
-  .footerRow .appleLogo {
-    margin-right: 70px; }
-  @media (max-width: 1024px) {
-    .footerRow .appleLogo {
-      margin-right: 10px; } }
-
+@media (max-width: 425px) {
+  .btnContinue {
+    width: 300px !important;
+    height: 50px !important;
+    margin-right: 20px !important;
+    border-radius: 10px !important; } }
+@media (max-width: 375px) {
+  .btnContinue {
+    margin-right: -5px !important; } }
+@media (max-width: 320px) {
+  .btnContinue {
+    margin-right: -25px !important; } }
 /*  Import From layaout  */
 .zemin {
   width: 98.9%;
@@ -147,6 +151,16 @@
       margin-left: 250px !important;
       margin-top: 23px !important;
       margin-bottom: 23px !important; } }
+@media (max-width: 375px) {
+  .row .kredimOlDiv .KredimOlLogo {
+    margin-left: 50px !important; }
+  .row .arabacomDiv .Arabacom---Logo {
+    margin-left: 200px !important; } }
+@media (max-width: 320px) {
+  .row .kredimOlDiv .KredimOlLogo {
+    margin-left: 20px !important; }
+  .row .arabacomDiv .Arabacom---Logo {
+    margin-left: 170px !important; } }
 .sectionBodyOfPage {
   background-color: #f9f9f9; }
   .sectionBodyOfPage .sectionTop {
@@ -282,6 +296,35 @@
       .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconLastText {
         position: absolute;
         margin-left: 240px; } }
+  @media (max-width: 375px) {
+    .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconsSpanFirstStep {
+      margin-left: 0px; }
+    .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconFirstText {
+      margin-left: -15px; }
+    .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconsSpanSecondStep {
+      margin-left: 117px; }
+    .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconSecondText {
+      margin-left: 97px; }
+    .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconsSpanLastStep {
+      margin-left: 228px; }
+    .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconLastText {
+      margin-left: 213px; } }
+  @media (max-width: 320px) {
+    .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconsSpanFirstStep {
+      margin-left: -10px; }
+    .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconFirstText {
+      font-size: 14px;
+      margin-left: -23px; }
+    .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconsSpanSecondStep {
+      margin-left: 88px; }
+    .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconSecondText {
+      font-size: 14px;
+      margin-left: 74px; }
+    .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconsSpanLastStep {
+      margin-left: 185px; }
+    .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconLastText {
+      font-size: 14px;
+      margin-left: 170px; } }
   .sectionBodyOfPage .sectionMid {
     border-radius: 20px;
     box-shadow: 0 10px 20px 0 rgba(113, 113, 115, 0.1);
@@ -412,6 +455,66 @@
 
   .rightPart {
     margin-left: 30px; } }
+@media (max-width: 425px) {
+  .rightPart {
+    padding-left: 0px !important; }
+
+  .leftPart .imgFirst {
+    margin-left: 30px; }
+  .leftPart .imgSecond {
+    margin-left: 30px; } }
+@media (max-width: 375px) {
+  .contTest {
+    padding-left: 0px !important; }
+
+  .leftPart .imgFirst {
+    margin-left: 0px; }
+  .leftPart .imgSecond {
+    margin-left: 0px; } }
+@media (max-width: 320px) {
+  .leftPart .imgFirst {
+    width: 236px;
+    margin-left: -22px; }
+  .leftPart .imgSecond {
+    width: 236px;
+    margin-left: -22px; } }
+.footerRow {
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .footerRow .aljLogo {
+    margin-left: 70px; }
+  .footerRow .googleLogo {
+    margin-right: 8px; }
+  .footerRow .appleLogo {
+    margin-right: 70px; }
+
+@media (max-width: 1024px) {
+  .appleLogo {
+    margin-right: 10px; } }
+@media (max-width: 425px) {
+  .footerRow {
+    height: 120px; }
+    .footerRow .aljLogo {
+      position: absolute;
+      margin-left: 150px; }
+    .footerRow .googleLogo {
+      margin-top: 50px;
+      margin-left: 90px; }
+    .footerRow .appleLogo {
+      margin-top: 50px; } }
+@media (max-width: 375px) {
+  .footerRow .aljLogo {
+    margin-left: 120px; }
+  .footerRow .googleLogo {
+    margin-left: 65px; }
+  .footerRow .appleLogo {
+    margin-top: 50px; } }
+@media (max-width: 320px) {
+  .footerRow .aljLogo {
+    margin-left: 90px; }
+  .footerRow .googleLogo {
+    margin-left: 40px; } }
 /*  Import From pages  */
 
 /*# sourceMappingURL=main.css.map */

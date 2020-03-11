@@ -1,0 +1,66 @@
+.footerRow{
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    .aljLogo{
+        margin-left: 70px;
+    }
+    .googleLogo{
+        margin-right: 8px;
+    }
+    .appleLogo{
+       margin-right: 70px;
+    }
+}
+@media (max-width: 1024px) {
+    .appleLogo{
+        margin-right: 10px;
+     }
+  }   
+  
+@media (max-width: 425px) {
+    .footerRow{
+        height: 120px;
+        .aljLogo{
+            position: absolute;
+            margin-left: 150px;
+        }
+
+        .googleLogo{
+            margin-top: 50px;
+            margin-left: 90px;
+        }
+        .appleLogo{
+           margin-top: 50px;
+        }
+    }
+  }     
+
+  @media (max-width: 375px) {
+    .footerRow{
+        .aljLogo{
+            margin-left: 120px;
+        }
+
+        .googleLogo{
+           margin-left: 65px;
+        }
+        .appleLogo{
+           margin-top: 50px;
+        }
+    }
+  }     
+
+  @media (max-width: 320px) {
+    .footerRow{
+        .aljLogo{
+            margin-left: 90px;
+        }
+
+        .googleLogo{
+           margin-left: 40px;
+        }
+       
+    }
+  }     

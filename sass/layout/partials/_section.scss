@@ -203,6 +203,102 @@
         }
     }
 
+@media (max-width: 375px) {
+        .sectionTop{
+           
+            .stepBarBodyRow{
+              
+                .IconsWrapper{
+               
+                 
+
+                   .IconsSpanFirstStep{
+                    margin-left: 0px;
+                    
+                   }
+
+                   .IconFirstText{
+            
+                    margin : {
+                        left:-15px;
+                      }
+                    }
+
+                   .IconsSpanSecondStep{      
+                    margin-left: 117px;
+                   }
+
+                   .IconSecondText{
+                   
+                    margin : {
+                        left:97px;
+                        
+                      }
+                   }
+
+                   .IconsSpanLastStep{
+                    margin-left: 228px;
+                   
+                   }
+                   .IconLastText{
+                   
+                    margin : {
+                        left:213px;
+                      }
+                   }
+               }
+            }
+        }
+    }
+@media (max-width: 320px) {
+        .sectionTop{
+           
+            .stepBarBodyRow{
+              
+                .IconsWrapper{
+                   
+                   .IconsSpanFirstStep{
+                    margin-left: -10px;
+                    
+                    
+                   }
+
+                   .IconFirstText{
+                    font-size:14px;
+                    margin : {
+                        left:-23px;
+                      }
+                    }
+
+                   .IconsSpanSecondStep{   
+                    
+                    margin-left: 88px;
+                   }
+
+                   .IconSecondText{
+                    font-size:14px;  
+                    margin : {
+                        left:74px;
+                        
+                      }
+                   }
+
+                   .IconsSpanLastStep{
+                    margin-left: 185px;
+                   
+                   }
+                   .IconLastText{
+                    font-size:14px; 
+                    margin : {
+                        left:170px;
+                      }
+                   }
+               }
+            }
+        }
+    }
+
+
 
    .sectionMid{
     border-radius: 20px;
@@ -279,3 +375,49 @@
     }
     
 }
+
+@media (max-width: 425px) {
+    
+    .rightPart{
+        padding-left: 0px !important;
+    }
+    .leftPart{
+        .imgFirst{
+            margin-left: 30px;
+        }
+        .imgSecond{
+         margin-left: 30px;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    
+    .contTest{
+        padding-left: 0px !important;
+    }
+    .leftPart{
+        .imgFirst{
+            margin-left: 0px;
+        }
+        .imgSecond{
+         margin-left: 0px;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    
+   
+    .leftPart{
+        .imgFirst{
+            width: 236px;
+            margin-left: -22px;
+        }
+        .imgSecond{
+            width: 236px;
+            margin-left: -22px;
+        }
+    }
+   
+}   
