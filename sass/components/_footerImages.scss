@@ -12,4 +12,13 @@
     .appleLogo{
        margin-right: 70px;
     }
+
+    @media (max-width: 1024px) {
+        .appleLogo{
+            margin-right: 10px;
+         }
+      }     
 }
+
+
+  

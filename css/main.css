@@ -14,24 +14,24 @@
   border-radius: 50%;
   background-color: #51859a; }
 
-.LineInStepBar1 {
+.LineInStepBarOne {
   width: 95px;
   margin-left: 0px;
   margin-top: 23px;
   margin-bottom: 23px; }
   @media (max-width: 768px) {
-    .LineInStepBar1 {
+    .LineInStepBarOne {
       width: 100px;
       margin-top: 25px;
       margin-left: 20px; } }
 
-.LineInStepBar2 {
+.LineInStepBarTwo {
   width: 95px;
   margin-left: 0px;
   margin-top: 23px;
   margin-bottom: 23px; }
   @media (max-width: 768px) {
-    .LineInStepBar2 {
+    .LineInStepBarTwo {
       margin-top: 25px;
       margin-left: 25px; } }
 
@@ -71,6 +71,13 @@
       margin-left: 32px;
       margin-top: 4px; }
 
+@media (max-width: 1024px) {
+  .BtnWrapper {
+    margin-right: 30px; } }
+@media (max-width: 768px) {
+  .btnContinue {
+    margin-bottom: 20px !important;
+    margin-right: 0px; } }
 .footerRow {
   background-color: #ffffff;
   padding-top: 10px;
@@ -81,6 +88,9 @@
     margin-right: 8px; }
   .footerRow .appleLogo {
     margin-right: 70px; }
+  @media (max-width: 1024px) {
+    .footerRow .appleLogo {
+      margin-right: 10px; } }
 
 /*  Import From layaout  */
 .zemin {
@@ -347,7 +357,10 @@
 
 @media (max-width: 768px) {
   .test {
-    margin-top: 100px !important; } }
+    margin-top: 100px !important; }
+
+  .rightPart {
+    margin-left: 30px; } }
 /*  Import From pages  */
 
 /*# sourceMappingURL=main.css.map */
