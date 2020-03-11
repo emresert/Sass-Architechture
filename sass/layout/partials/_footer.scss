@@ -4,18 +4,21 @@
     padding-bottom: 10px;
     
     .aljLogo{
+        cursor: $cursor;
         margin-left: 70px;
     }
     .googleLogo{
+        cursor: $cursor;
         margin-right: 8px;
     }
     .appleLogo{
+        cursor: $cursor;
        margin-right: 70px;
     }
 }
 @media (max-width: 1024px) {
     .appleLogo{
-        margin-right: 10px;
+        margin-right: 10px !important;
      }
   }   
   

@@ -5,11 +5,11 @@
  
  .row{
     .kredimOlDiv{
-
+        
         text-align: left;
 
            .KredimOlLogo {
-          
+            cursor: $cursor;
             @include mixinForImagesOnTop;
 
             // my style
@@ -19,9 +19,11 @@
         }
 
      .arabacomDiv{
+      
         text-align: right;
         
           .Arabacom---Logo{ 
+            cursor: $cursor;
             @include mixinForImagesOnTop;
     
             // my style
