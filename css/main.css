@@ -137,22 +137,17 @@
     .row .kredimOlDiv .KredimOlLogo {
       width: 118px !important;
       height: 24px !important;
-      margin-left: 50px !important;
       margin-top: 23px !important;
-      margin-bottom: 23px !important; }
+      margin-bottom: 23px !important;
+      margin-left: 50px !important; }
   .row .arabacomDiv {
     position: absolute; }
     .row .arabacomDiv .Arabacom---Logo {
-      width: 180px;
-      height: 36px;
-      object-fit: contain;
-      margin-top: 17px;
-      margin-bottom: 17px;
       width: 118px !important;
       height: 24px !important;
-      margin-left: 250px !important;
       margin-top: 23px !important;
-      margin-bottom: 23px !important; } }
+      margin-bottom: 23px !important;
+      margin-left: 250px !important; } }
 @media (max-width: 375px) {
   .row .kredimOlDiv .KredimOlLogo {
     margin-left: 50px !important; }
