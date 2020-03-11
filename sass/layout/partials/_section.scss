@@ -47,7 +47,6 @@
       
               }
               
-              
               .FirstIcon{
                   padding: $paddingSize;
               }
@@ -59,18 +58,16 @@
               }
           }
        }
-    
    }
 
-   @media (max-width: 1024px) {
+@media (max-width: 1024px) {
     .sectionTop{
         margin-left: 5%; //328px;
-        padding-top: 29px;
-        
+        padding-top: 29px;    
            }
     }
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
            
         .sectionTop{
             margin-left: 5%; //328px;
@@ -83,11 +80,8 @@
                  margin-bottom: 150px;
 
                    .IconsSpanFirstStep{
-                      
                     margin-left: 75px;
                     margin-top: 0px;
-                   
-                   
                    }
 
                    .IconFirstText{
@@ -100,15 +94,11 @@
                         left:50px;
                         top: 35px;
                       }
-                  
                 }
 
-                   .IconsSpanSecondStep{
-                      
+                   .IconsSpanSecondStep{      
                     margin-left: 265px;
                     margin-top: 0px;
-                   
-
                    }
 
                    .IconSecondText{
@@ -124,7 +114,6 @@
                       }
         
                 }
-
 
                    .IconsSpanLastStep{
                     margin-left: 450px;
@@ -144,8 +133,6 @@
                         left:430px;
                         top: 35px;
                       }
-                     
-           
                    }
                    
                    
@@ -165,6 +152,56 @@
             
     }
      
+@media (max-width: 425px) {
+        .sectionTop{
+           
+            .stepBarBodyRow{
+              
+                .IconsWrapper{
+                 position:absolute;
+                 
+
+                   .IconsSpanFirstStep{
+                    margin-left: 15px;
+                    
+                   }
+
+                   .IconFirstText{
+                    position: absolute;
+                    margin : {
+                        left:0px;
+                      }
+                    }
+
+                   .IconsSpanSecondStep{      
+                    margin-left: 140px;
+                   }
+
+                   .IconSecondText{
+                    position: absolute;
+                   
+            
+                    margin : {
+                        left:122px;
+                        top: 35px;
+                      }
+                   }
+
+                   .IconsSpanLastStep{
+                    margin-left: 265px;
+                    margin-top: 0px;
+                   }
+
+                   .IconLastText{
+                    position: absolute;
+                    margin : {
+                        left:240px;
+                      }
+                   }
+               }
+            }
+        }
+    }
 
 
    .sectionMid{

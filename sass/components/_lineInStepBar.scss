@@ -6,27 +6,45 @@
             top: 23px; //26
             bottom: 23px;
      }
-
-    @media (max-width: 768px) {
-        width: 100px;
-        margin-top :25px;
-        margin-left: 20px;
-    }
+}
+@media (max-width: 768px) {
+    .LineInStepBarOne{
+      width: 100px;
+      margin-top :25px;
+      margin-left: 20px;
+    }  
+     
+  }
+@media (max-width: 425px) {
+    .LineInStepBarOne{
+       width: 34px;
+       margin-left: 15px;
+           }
 }
 .LineInStepBarTwo{
-    
+
          width: 95px;
          margin : {
              left:0px; //20
              top: 23px; //26
              bottom: 23px;
           }
-
-    @media (max-width: 768px) {
-        margin : {
-            top :25px;
-            left: 25px;
-        }
-    }
 }
-
+@media (max-width: 768px) {
+    .LineInStepBarTwo{
+      width: 95px;
+      margin : {
+        top :25px;
+        left: 25px;
+    }
+  } 
+}
+@media (max-width: 425px) {
+    .LineInStepBarTwo{
+       width: 34px;
+       margin : {
+        
+        left: 25px;
+    }
+           }
+}

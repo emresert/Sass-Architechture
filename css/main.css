@@ -19,22 +19,31 @@
   margin-left: 0px;
   margin-top: 23px;
   margin-bottom: 23px; }
-  @media (max-width: 768px) {
-    .LineInStepBarOne {
-      width: 100px;
-      margin-top: 25px;
-      margin-left: 20px; } }
 
+@media (max-width: 768px) {
+  .LineInStepBarOne {
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 20px; } }
+@media (max-width: 425px) {
+  .LineInStepBarOne {
+    width: 34px;
+    margin-left: 15px; } }
 .LineInStepBarTwo {
   width: 95px;
   margin-left: 0px;
   margin-top: 23px;
   margin-bottom: 23px; }
-  @media (max-width: 768px) {
-    .LineInStepBarTwo {
-      margin-top: 25px;
-      margin-left: 25px; } }
 
+@media (max-width: 768px) {
+  .LineInStepBarTwo {
+    width: 95px;
+    margin-top: 25px;
+    margin-left: 25px; } }
+@media (max-width: 425px) {
+  .LineInStepBarTwo {
+    width: 34px;
+    margin-left: 25px; } }
 .imgFirst {
   border-radius: 13px;
   width: 276px;
@@ -116,6 +125,28 @@
       margin-bottom: 17px;
       margin-right: 50px; }
 
+@media (max-width: 425px) {
+  .row .kredimOlDiv {
+    position: absolute; }
+    .row .kredimOlDiv .KredimOlLogo {
+      width: 118px !important;
+      height: 24px !important;
+      margin-left: 50px !important;
+      margin-top: 23px !important;
+      margin-bottom: 23px !important; }
+  .row .arabacomDiv {
+    position: absolute; }
+    .row .arabacomDiv .Arabacom---Logo {
+      width: 180px;
+      height: 36px;
+      object-fit: contain;
+      margin-top: 17px;
+      margin-bottom: 17px;
+      width: 118px !important;
+      height: 24px !important;
+      margin-left: 250px !important;
+      margin-top: 23px !important;
+      margin-bottom: 23px !important; } }
 .sectionBodyOfPage {
   background-color: #f9f9f9; }
   .sectionBodyOfPage .sectionTop {
@@ -231,6 +262,26 @@
             padding: 14.5px; }
           .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .LastIcon {
             padding: 14.5px; } }
+  @media (max-width: 425px) {
+    .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper {
+      position: absolute; }
+      .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconsSpanFirstStep {
+        margin-left: 15px; }
+      .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconFirstText {
+        position: absolute;
+        margin-left: 0px; }
+      .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconsSpanSecondStep {
+        margin-left: 140px; }
+      .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconSecondText {
+        position: absolute;
+        margin-left: 122px;
+        margin-top: 35px; }
+      .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconsSpanLastStep {
+        margin-left: 265px;
+        margin-top: 0px; }
+      .sectionBodyOfPage .sectionTop .stepBarBodyRow .IconsWrapper .IconLastText {
+        position: absolute;
+        margin-left: 240px; } }
   .sectionBodyOfPage .sectionMid {
     border-radius: 20px;
     box-shadow: 0 10px 20px 0 rgba(113, 113, 115, 0.1);

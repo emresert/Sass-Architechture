@@ -31,3 +31,34 @@
         }
     }   
 }
+
+@media (max-width: 425px) {
+  .row{
+    .kredimOlDiv{
+
+      position: absolute;
+
+           .KredimOlLogo {
+           width: 118px !important;
+           height: 24px !important;
+           margin-left: 50px !important; //23
+           margin-top: 23px !important;
+           margin-bottom: 23px !important;
+          }
+        }
+
+     .arabacomDiv{
+      position: absolute;
+        
+          .Arabacom---Logo{ 
+            @include mixinForImagesOnTop;
+            width: 118px !important;
+            height: 24px !important;
+            margin-left: 250px !important; //23
+            margin-top: 23px !important;
+            margin-bottom: 23px !important;
+          
+          }
+        }
+    }   
+}
