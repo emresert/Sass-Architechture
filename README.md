@@ -11,11 +11,14 @@
  - _cmpTestTree
  
 ### Layout
-- Partial
-  --- Header.scss
-  --- Section.scss
-  --- Footer.scss
+
+- Partial  
+  - Header.scss
+  - Section.scss
+  - Footer.scss
+  
  - _layout.scss
+ 
 ### Pages
 
  - PageOne
